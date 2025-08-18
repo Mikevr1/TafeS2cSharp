@@ -1,0 +1,42 @@
+Brief 
+Create a console application that emulates a lottery of numbers. Your program must allow the 
+user to select their own numbers from a predefined range of values. Once all values have been 
+selected the program will then generate a series of random numbers and compare the users' 
+values with those. The number of values that match with those the user picked from the 
+randomly generated numbers will be displayed for the user to see how many they got correct. 
+ 
+Requirements 
+The application must: 
+1. Take user input to store values they select into an array structure. 
+2. Write a custom Linear and Binary Search and use the Binary Search to find the matching 
+values in the array. 
+3. Only allow values within a predefined range. 
+4. Handle any input validation gracefully, while informing user if incorrect. 
+5. Where necessary display outputs to user for prompt and feedback. 
+6. Allow for customisation of the application by ensuring the following values are variables: 
+a. The total number of values that the user must enter / are generated randomly. 
+b. The range of numbers that are accepted for input / to be selected from randomly. 
+ 
+Problem Breakdown 
+To help break down the application and problem into smaller chunks here are some tasks to 
+complete as a guide. There is a further breakdown attached in the appendices. 
+ 
+Task 1 – Create a program that allows users to enter values and store these into an array. 
+Task 2 – Take a screenshot of you debugging your program at a breakpoint showing the values 
+have been entered into the data structure correctly. 
+Task 3 – Create a random number generator that fills a second array with random numbers. 
+Make sure they are within the range the user can input. 
+Task 4 – Demonstrate understanding of two methods of searching on an array using a Linear 
+and binary search algorithm. 
+Task 5 – Write the rest of the application by using the search function and check each of the 
+user entered values against the random ones. Let the user know the outcome. Give different 
+outcomes for different results. 
+Task 6 – Test and debug your program to ensure it meets ALL requirements. 
+ 
+Deliverables 
+1. Zipped application including all solution files and folders. 
+2. Screenshots showing breakpoint use and debugging of values inside the array.
+***********************************************************************************
+Constants 
+TOTAL
+RANGE
